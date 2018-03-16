@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# muljed ainest
+#
+echo -n "Karl_Oscar_Neevits, " #nimi ja perekonnanimi
+echo "ISP217" #oppegrupp
+echo "ikka natuke keeruline aga meeldib" #kuidas meeldib
+echo "ma arvan et see muutub raskeks kui peame hakkama ise asju kirjutama"
+#
+# skripti lõpp
