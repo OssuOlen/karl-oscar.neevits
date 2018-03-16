@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# aine
+#
+echo -n "Karl_Oscar_Neevits, " # Nimi ja perekonnanimi
+echo "ISP217" # oppegrupp
+echo "aine tundub keeruline, ja et siin saab kergelt vigu teha" # kuidas aine meeldib
+echo "siiamaani olen hakkama saanud enamus asjadega" # praegune mulje 
+#
+# skripti lõpp
