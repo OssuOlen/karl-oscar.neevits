@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#kasutaja tervitus
+#
+#skripti algus
+echo Tere tulemast, Karl Oscar Neevits
+#
+#skripti lõpp
+
