@@ -1,0 +1,11 @@
+#!/bin/bash
+#skripti algus
+echo -n "Mitu reisijat on grupis?"
+read reisijad #kysib sisendit
+echo -n "Mitu kohta on igas bussis?: "
+read kohad #kysib sisendit
+Arvutus1=`expr $reisijad / $kohad` #arvutus
+Arvutus2=`expr $reisijad % $kohad` #arvutus
+echo "bussides on $Arvutus1 täidetud kohta ja maha jääb $Arvutus2 inimest"
+#
+#skripti lõpp
