@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+#paaris või paaritu
+#
+#
+if  [ $(($1 % 2)) -eq 0 ] #kui jääk on võrdne 0
+then
+echo $1 "paarisarv!" #paarisarv
+else $1 "on paaritu!" #pole paarisarv
+fi
+
+#
+#
