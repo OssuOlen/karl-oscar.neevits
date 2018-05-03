@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# sisestaem külje väärdused
+echo -n "Sisesta a külje väädtus: "
+read a
+echo -n "Sisesta b külje väärtus: "
+read b
+a2=$(($a * $a))
+b2=$(($b * $b))
+c2=$(($a2 + $b2))
+c=`echo "scale=2;sqrt($c2)" | bc`
+echo "c = $c"
