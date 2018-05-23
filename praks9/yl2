@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# kui sisestad ridade arvu ning real olevad sümbolid
+echo -n "Sisesta ridade arv: "
+read r
+echo -n "Sisesta tärnide arv reas: "
+read t
+for (( i = 1; i <= $r; i++ )) #pikkus	
+do	echo -n $i". "
+for (( j = 1; j <= $t; j++ )) #laius
+do
+echo -n "*" #need millest see koosneb
+done
+echo ""
+done
